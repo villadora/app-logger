@@ -1,0 +1,33 @@
+{
+  "name": "app-logger",
+  "version": "0.1.0",
+  "description": "app-logger",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/villadora/app-logger.git"
+  },
+  "keywords": [
+    "app-logger",
+    "logger",
+    "bunyan",
+    "app"
+  ],
+  "engines": { 
+    "node": ">=0.11.0"
+  },
+  "author": "villadora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/villadora/app-logger/issues"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }, 
+  "peerDependencies": {
+    "bunyan" :"^1.0.0"
+  }
+}
