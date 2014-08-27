@@ -3,6 +3,9 @@ var logger;
 
 
 module.exports = function(name, data) {
+  if (!logger) 
+    throw new Error("Please call require('app-logger').init() before using logger");
+
   if (typeof name !== 'string' && data === undefined) {
     data = name;
     name = undefined;
